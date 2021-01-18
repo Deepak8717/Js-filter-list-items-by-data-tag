@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Js filter</title>
+  </head>
+  <body>
+    <button data-filter="ping" data-reset="true">Reset</button>
+    <button data-filter="ping" data-filter-tag="a">Show A</button>
+    <button data-filter="ping" data-filter-tag="b">Show B</button>
+    <button data-filter="ping" data-filter-tag="c">Show C</button>
+
+    <ul class="ping">
+      <li data-tags="a b">Apple</li>
+      <li data-tags="a f r">Axe</li>
+      <li data-tags="a">Aventator</li>
+      <li data-tags="b g z">Boomerang</li>
+      <li data-tags="b">Bath</li>
+      <li data-tags="b c">Bar</li>
+      <li data-tags="c a">Car</li>
+      <li data-tags="c m t">Carrot</li>
+      <li>Outlier</li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
